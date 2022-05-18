@@ -1,0 +1,163 @@
+[0.000000] (-) TimerEvent: {}
+[0.000509] (cpp_pubsub) JobQueued: {'identifier': 'cpp_pubsub', 'dependencies': OrderedDict()}
+[0.000669] (cpp_pubsub) JobStarted: {'identifier': 'cpp_pubsub'}
+[0.012489] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'cmake'}
+[0.012759] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '/home/dev_ws/src/cpp_pubsub', '-DCMAKE_INSTALL_PREFIX=/home/dev_ws/install/cpp_pubsub'], 'cwd': '/home/dev_ws/build/cpp_pubsub', 'env': OrderedDict([('HOSTNAME', '03249ccc7d71'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/home/dev_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/home/dev_ws/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[0.093515] (cpp_pubsub) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.099726] (-) TimerEvent: {}
+[0.195679] (cpp_pubsub) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.199823] (-) TimerEvent: {}
+[0.204215] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.300030] (-) TimerEvent: {}
+[0.311961] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.314047] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400264] (-) TimerEvent: {}
+[0.434683] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.455976] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.456599] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.461388] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.500419] (-) TimerEvent: {}
+[0.599722] (cpp_pubsub) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.600492] (-) TimerEvent: {}
+[0.602224] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.700734] (-) TimerEvent: {}
+[0.738939] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.759531] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.760333] (cpp_pubsub) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.763433] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.797994] (cpp_pubsub) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.798298] (cpp_pubsub) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.800852] (-) TimerEvent: {}
+[0.901309] (-) TimerEvent: {}
+[1.001681] (-) TimerEvent: {}
+[1.009784] (cpp_pubsub) StdoutLine: {'line': b'-- Found rclcpp: 2.4.1 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.099347] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.101785] (-) TimerEvent: {}
+[1.111206] (cpp_pubsub) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.201945] (-) TimerEvent: {}
+[1.221716] (cpp_pubsub) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[1.275560] (cpp_pubsub) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[1.302036] (-) TimerEvent: {}
+[1.361755] (cpp_pubsub) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.402143] (-) TimerEvent: {}
+[1.425021] (cpp_pubsub) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[1.426893] (cpp_pubsub) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.428367] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.502286] (-) TimerEvent: {}
+[1.536501] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.536999] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.602426] (-) TimerEvent: {}
+[1.652692] (cpp_pubsub) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[1.652986] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[1.702616] (-) TimerEvent: {}
+[1.746036] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[1.746431] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[1.802760] (-) TimerEvent: {}
+[1.870637] (cpp_pubsub) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[1.872919] (cpp_pubsub) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.902928] (-) TimerEvent: {}
+[2.003320] (-) TimerEvent: {}
+[2.078044] (cpp_pubsub) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[2.103445] (-) TimerEvent: {}
+[2.181971] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.183943] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.184194] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.184332] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.185824] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.185981] (cpp_pubsub) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.187196] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.188937] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.189162] (cpp_pubsub) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.189632] (cpp_pubsub) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.195713] (cpp_pubsub) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.203603] (-) TimerEvent: {}
+[2.210324] (cpp_pubsub) StdoutLine: {'line': b'-- Generating done\n'}
+[2.212141] (cpp_pubsub) StdoutLine: {'line': b'-- Build files have been written to: /home/dev_ws/build/cpp_pubsub\n'}
+[2.218108] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[2.221049] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'build'}
+[2.221229] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/dev_ws/build/cpp_pubsub', '--', '-j8', '-l8'], 'cwd': '/home/dev_ws/build/cpp_pubsub', 'env': OrderedDict([('HOSTNAME', '03249ccc7d71'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/home/dev_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/home/dev_ws/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[2.281323] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target listener\x1b[0m\n'}
+[2.281671] (cpp_pubsub) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target talker\x1b[0m\n'}
+[2.303783] (-) TimerEvent: {}
+[2.347224] (cpp_pubsub) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/listener.dir/src/subscriber_member_function.cpp.o\x1b[0m\n'}
+[2.358335] (cpp_pubsub) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talker.dir/src/publisher_member_function.cpp.o\x1b[0m\n'}
+[2.403939] (-) TimerEvent: {}
+[2.504399] (-) TimerEvent: {}
+[2.604803] (-) TimerEvent: {}
+[2.705173] (-) TimerEvent: {}
+[2.805574] (-) TimerEvent: {}
+[2.905949] (-) TimerEvent: {}
+[3.006346] (-) TimerEvent: {}
+[3.106723] (-) TimerEvent: {}
+[3.207107] (-) TimerEvent: {}
+[3.307498] (-) TimerEvent: {}
+[3.407881] (-) TimerEvent: {}
+[3.508277] (-) TimerEvent: {}
+[3.608689] (-) TimerEvent: {}
+[3.709074] (-) TimerEvent: {}
+[3.809471] (-) TimerEvent: {}
+[3.909868] (-) TimerEvent: {}
+[4.010252] (-) TimerEvent: {}
+[4.110649] (-) TimerEvent: {}
+[4.211043] (-) TimerEvent: {}
+[4.311450] (-) TimerEvent: {}
+[4.411868] (-) TimerEvent: {}
+[4.512252] (-) TimerEvent: {}
+[4.612618] (-) TimerEvent: {}
+[4.713001] (-) TimerEvent: {}
+[4.813369] (-) TimerEvent: {}
+[4.913746] (-) TimerEvent: {}
+[5.014108] (-) TimerEvent: {}
+[5.114460] (-) TimerEvent: {}
+[5.214827] (-) TimerEvent: {}
+[5.231964] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable talker\x1b[0m\n'}
+[5.314932] (-) TimerEvent: {}
+[5.402192] (cpp_pubsub) StdoutLine: {'line': b'[ 75%] Built target talker\n'}
+[5.415105] (-) TimerEvent: {}
+[5.515381] (-) TimerEvent: {}
+[5.615665] (-) TimerEvent: {}
+[5.715958] (-) TimerEvent: {}
+[5.816337] (-) TimerEvent: {}
+[5.916730] (-) TimerEvent: {}
+[6.017091] (-) TimerEvent: {}
+[6.117376] (-) TimerEvent: {}
+[6.217640] (-) TimerEvent: {}
+[6.317921] (-) TimerEvent: {}
+[6.418279] (-) TimerEvent: {}
+[6.518580] (-) TimerEvent: {}
+[6.618893] (-) TimerEvent: {}
+[6.719320] (-) TimerEvent: {}
+[6.819692] (-) TimerEvent: {}
+[6.860196] (cpp_pubsub) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable listener\x1b[0m\n'}
+[6.919815] (-) TimerEvent: {}
+[7.020277] (-) TimerEvent: {}
+[7.118782] (cpp_pubsub) StdoutLine: {'line': b'[100%] Built target listener\n'}
+[7.120365] (-) TimerEvent: {}
+[7.129537] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[7.169423] (cpp_pubsub) JobProgress: {'identifier': 'cpp_pubsub', 'progress': 'install'}
+[7.190878] (cpp_pubsub) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/dev_ws/build/cpp_pubsub'], 'cwd': '/home/dev_ws/build/cpp_pubsub', 'env': OrderedDict([('HOSTNAME', '03249ccc7d71'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/home/dev_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/foxy'), ('PWD', '/home/dev_ws/build/cpp_pubsub'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/foxy')]), 'shell': False}
+[7.205881] (cpp_pubsub) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.206329] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[7.208193] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker" to ""\n'}
+[7.208490] (cpp_pubsub) StdoutLine: {'line': b'-- Up-to-date: /home/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/talker\n'}
+[7.208818] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/listener\n'}
+[7.212878] (cpp_pubsub) StdoutLine: {'line': b'-- Set runtime path of "/home/dev_ws/install/cpp_pubsub/lib/cpp_pubsub/listener" to ""\n'}
+[7.213157] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/package_run_dependencies/cpp_pubsub\n'}
+[7.213372] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/parent_prefix_path/cpp_pubsub\n'}
+[7.213747] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.sh\n'}
+[7.214115] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/ament_prefix_path.dsv\n'}
+[7.214422] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.sh\n'}
+[7.214803] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/cpp_pubsub/share/cpp_pubsub/environment/path.dsv\n'}
+[7.215064] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.bash\n'}
+[7.215276] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.sh\n'}
+[7.215457] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.zsh\n'}
+[7.215633] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/cpp_pubsub/share/cpp_pubsub/local_setup.dsv\n'}
+[7.215850] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.dsv\n'}
+[7.216211] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/cpp_pubsub/share/ament_index/resource_index/packages/cpp_pubsub\n'}
+[7.216552] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig.cmake\n'}
+[7.216732] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/cpp_pubsub/share/cpp_pubsub/cmake/cpp_pubsubConfig-version.cmake\n'}
+[7.216973] (cpp_pubsub) StdoutLine: {'line': b'-- Installing: /home/dev_ws/install/cpp_pubsub/share/cpp_pubsub/package.xml\n'}
+[7.220111] (cpp_pubsub) CommandEnded: {'returncode': 0}
+[7.220772] (-) TimerEvent: {}
+[7.285357] (cpp_pubsub) JobEnded: {'identifier': 'cpp_pubsub', 'rc': 0}
+[7.286837] (-) EventReactorShutdown: {}
